@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:dina/column.dart';
 import 'package:dina/latihan.dart';
 import 'package:dina/latihan2.dart';
+import 'package:dina/list view/list_builder.dart';
 import 'text.dart';
 import 'container.dart';
 // import 'row.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.pinkAccent,
           centerTitle: true,
         ),
-        body: Latihan2(),
+        body: BelajarListView(),
       ),
     );
   }
